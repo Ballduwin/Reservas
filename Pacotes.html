@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />		
+			
+    <title>Reservas</title>    
+</head>
+
+<body>
+    
+<div id="mydiv1">
+<h3>Escolha o Pacote</h3>
+
+<select name="Pacotes">
+  <option value="PASCOA">PÁSCOA 24</option>
+  <option value="TIRADENTES">TIRADENTES</option>
+  <option value="MAIO_1">1° DE MAIO</option>
+  <option value="CORPUS">CORPUS CHRISTI</option>
+  <option value="DIADOSPAIS">DIAS DOS PAIS</option>
+  <option value="INDEPENDENCIA">INDEPENDÊNCIA</option>
+  <option value="OUTUBRO_12">12 DE OUTUBRO</option>
+  <option value="FINADOS">FINADOS</option>
+  <option value="NATAL">NATAL</option>
+  <option value="REVEILLON">REVEILLON 2023/24</option>
+  <option value="CARNAVAL">CARNAVAL 24</option>
+</select>
+<br>
+<br>
+Adultos no Apartamento <input type="number" size="2" min="1" max="4" id="npessoas"> Crianças <input type="number" size="2" min="0" max="4" id="chil" name="chil"><br> 
+<br>
+<input type="button" value="Calcular" onclick="calcular()"  id="botão"><br>
+
+</div>
+
+<div id="mydiv2">
+<a href="diarias.html">Ir para Diárias</a>
+</div>
+
+<div id="mydiv3">
+<p id="nome_pacote"></p>
+<p id="dois_dias"></p>
+<p id="tres_dias"></p>
+<p id="quatro_dias"></p>
+<p id="cinco_dias"></p>
+<p id="cafe_e_jantar"></p>
+<p id="ceia_natal"></p>
+<p id="ceia_revei"></p>
+</div>
+
+</body>
+<script src="code02.js"></script>
+</html>

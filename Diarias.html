@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+	
+    <title>Reservas</title>
+	
+</head>
+<body>
+ 
+<div id="mydiv1">
+<h3>Valores por Diárias</h3>
+<input type="date" id="checkin" name="checkin"><label> Ckeck-in</label><br>
+<br>
+<input type="date" id="ckeckout" name="ckeckout"><label> Ckeck-out</label><br>
+<br>
+Adultos no Apartamento <input type="number" size="2" min="1" max="4" id="npessoas"> Crianças <input type="number" size="2" min="0" max="4" id="chil" name="chil"><br> 
+<br>
+<input type="button" value="Calcular" onclick="calcular()"  id="botão"><br>
+
+</div>
+
+<div id="mydiv2">
+<a href="Pacotes.html">Ir para Pacotes</a>
+
+<button id="openDialogBtn">Voucher</button>
+</div>
+
+<div id="mydiv3">
+<p id="ndias"></p>
+<p id="periodo"></p>
+<p id="stmp"></p>
+<p id="tcmp"></p>
+<p id="sjmp"></p>
+<p id="smmp"></p>
+<p id="stcm"></p>
+<p id="tccm"></p>
+<p id="smcm"></p>
+<p id="desconto"></p>
+<p id="diariacortesia"></p>
+<p id="tarifario"></p>
+</div>
+
+<div id="dialog" style="display: none;">
+    <p>Escolha uma das opções:</p>
+    <select id="options">
+        <option value="OP01">Standard MP</option>
+        <option value="OP02">Top Class MP</option>
+        <option value="OP03">Suíte Junior MP</option>
+        <option value="OP04">Suíte Master MP</option>
+        <option value="OP05">Standard CM</option>
+        <option value="OP06">Top Class CM</option>
+        <option value="OP07">Suíte Master CM</option>
+    </select>
+    <button id="confirmOption">Confirmar</button>
+</div>
+
+</body>
+<script src="code01.js"></script>
+<script src="code03.js"></script>
+</html>
