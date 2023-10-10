@@ -1,3 +1,9 @@
+body {
+  background-image: url('caminho/para/o/seu/arquivo/bck.png');
+  background-size: cover; /* Isso ajustará o tamanho da imagem para cobrir todo o corpo */
+  background-position: center; /* Isso centralizará a imagem no corpo */
+  margin: 0; /* Isso removerá qualquer margem padrão do corpo */
+}
 
 #mydiv2 {
   position: fixed;
