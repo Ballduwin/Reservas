@@ -1,8 +1,24 @@
 body {
   background-image: url('bck.png');
-  background-size: cover; /* Isso ajustará o tamanho da imagem para cobrir todo o corpo */
-  background-position: center; /* Isso centralizará a imagem no corpo */
-  
+  background-size: 1350px 600px; /* Define o tamanho desejado */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  height: 100vh; /* Isso define a altura do corpo para a altura da viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mydiv1 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  margin-top: 170px;
+  margin-right: 1140px;
 }
 
 #mydiv2 {
@@ -11,23 +27,29 @@ body {
   right: 0;
   width: 100px;
   height: 100px;
-  margin-top: 100px;
+  margin-top: 30px;
   margin-right: 100px;
+}
+
+#mydiv3 {
+  top: 0;
+  right: 0;
+  margin-top: 270px;
+  margin-right: 70px;
 }
 
 #openDialogBtn {
   position: fixed;
   top: 0;
   right: 0;  
-  margin-top: 130px;
-  margin-right: 100px;
+  margin-top: 30px;
+  margin-right: 20px;
 }
   
 #dialog {
   position: fixed;
   top: 0;
   right: 0;  
-  margin-top: 150px;
-  margin-right: 100px;
+  margin-top: 100px;
+  margin-right: 40px;
 }
-  
