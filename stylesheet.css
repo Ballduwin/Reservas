@@ -53,3 +53,35 @@ body {
   margin-top: 100px;
   margin-right: 40px;
 }
+
+#mydiv4 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  margin-top: 170px;
+  margin-right: 1140px;
+}
+
+#mydiv5 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+  margin-right: 100px;
+}
+
+#mydiv6 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 500px;
+  height: 1000px;
+  margin-top: 130px;
+  margin-left: 240px;
+  
+}

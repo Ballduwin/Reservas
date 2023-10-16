@@ -321,14 +321,7 @@ valor_pordia7 = roundDownWithoutCents(valor_pordia7)
 		
 
 
-//===========================================================================================================
-	/*
-	
-    document.getElementById("ndias").innerHTML = `*_Obrigado por escolher o Ubatuba Palace Hotel!!!_*<br>
-	<br>
-	Ao todo são *<strong>${diarias}</strong> diárias para <strong>${npessoas} ${adult} e ${numero_criancas} ${child}* </strong>`
-	
-	*/
+//===========================================================================================================	
 
 	document.getElementById("periodo").innerHTML = `<strong>Período: de *${day1}/${month1}/${year1} à ${day2}/${month2}/${year2}*</strong><br>`
 
@@ -357,11 +350,6 @@ valor_pordia7 = roundDownWithoutCents(valor_pordia7)
 	document.getElementById("tarifario").innerHTML = `Tarifas: <strong>${mes} ${year1}</strong><br>
 	<br>
 	<strong>Standard MP R$ ${tarifa[0]},00<br> Top Class MP R$ ${tarifa[1]},00<br> Suite Junior MP R$ ${tarifa[2]},00<br> Standard CM R$ ${tarifa[3]},00<br> Top Class CM R$ ${tarifa[4]},00<br></strong>`
-
-
-
-
-
 
 if (numero_criancas === 0) {
   // Se numero_criancas for igual a 0, exiba apenas parte do parágrafo

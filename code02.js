@@ -3,7 +3,7 @@
   
 						//Stan MP / Top MP / Suite J MP
 	
-	var CARNAVAL = 		[4440, 4900, 0, 5150, 6665, 7330, 5880, 6470, 7120]
+	var CARNAVAL = 		[4440, 4900, 0, 5150, 5665, 7330, 5880, 6470, 7120]
 	var PASCOA =  		[2400, 2640, 2905, 3170, 3500, 3850]
 	var TIRADENTES = 	[1530, 1680, 0, 2260, 2480, 2730]
 	var MAIO_1 = 	 	[1530, 1680, 0, 2260, 2480, 2730]
@@ -18,7 +18,21 @@
     var npessoas = Number(document.getElementById("npessoas").value)
 	var criancas = Number(document.getElementById("chil").value)
 	var nomepacote = ""
-     
+	var adult = "Adultos"
+	var child = "crianças"
+	
+	if (npessoas == 1) {
+		adult = "Adulto"
+	} else {
+		
+	}
+	
+	if (criancas == 1) {
+		child = "criança"
+	} else {
+		
+	}
+	    
 	var pacotes = document.getElementsByName("Pacotes")[0]
 	var valorSelecionado = pacotes.options[pacotes.selectedIndex].value
 	var paragrafo3d = document.querySelector('#tres_dias')
@@ -169,9 +183,11 @@
 
 	}	
 	
-
-document.getElementById("nome_pacote").innerHTML = `*<strong>PACOTE DE <strong>${nomepacote}</strong>* – Para ${npessoas} Adultos e ${criancas} crianças`
-
+if (criancas == 0) {
+document.getElementById("nome_pacote").innerHTML = `*<strong>PACOTE DE <strong>${nomepacote}</strong>* – Para ${npessoas} ${adult}`
+} else {
+document.getElementById("nome_pacote").innerHTML = `*<strong>PACOTE DE <strong>${nomepacote}</strong>* – Para ${npessoas} ${adult} e ${criancas} ${child}`	
+}
 document.getElementById("dois_dias").innerHTML = `*<strong>${ndias[0]} Dias</strong>*<br>
 Apto Standard – Pacote de *${valor[0]}*<br>
 Apto Top Class – Pacote de *${valor[1]}*<br>
