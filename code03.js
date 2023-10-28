@@ -1,4 +1,4 @@
-document.getElementById("openDialogBtn").addEventListener("click", function() {
+document.getElementById("botao_voucher").addEventListener("click", function() {
     // Exibe a caixa de diálogo
     document.getElementById("dialog").style.display = "block";
 });
@@ -15,12 +15,9 @@ document.getElementById("confirmOption").addEventListener("click", function() {
 
 	var nome_ap = ""
 	var refeicao = ""
-	var desc_pix = ""
-	var tot_desc_smmp = ""
-	var tot_desc_smcm = ""
+	var desc_pix = ""	
 	var adult = "Adultos"
-	var child = "Crianças"
-	
+	var child = "Crianças"	
 	
     var numero_criancas = Number(document.getElementById("chil").value)
 	
@@ -90,8 +87,7 @@ document.getElementById("confirmOption").addEventListener("click", function() {
 	  refeicao = "café da manhã"
 	  
     } else {
-	  valor_voucher = ""
-	
+	 	
     }  	
 	
     // Texto com a variável selecionada
