@@ -59,7 +59,7 @@ document.getElementById("confirmOption").addEventListener("click", function() {
     } else if (selectedValue == "OP03") {
       valor_voucher = tot_desc_sjmp	  
 	  nome_ap = "Suíte Junior"
-	  desc_pix = suitemp_pix
+	  desc_pix = sjmp_pix
 	  refeicao = "café da manhã e jantar"
 	  
 	} else if (selectedValue == "OP04") {
