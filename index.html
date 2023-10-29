@@ -16,7 +16,7 @@
 <br>
 <input type="date" id="ckeckout" name="ckeckout"><label> Ckeck-out</label><br>
 <br>
-Ad <input type="number" size="2" min="1" max="4" id="npessoas"> Ch <input type="number" size="2" min="0" max="4" id="chil" name="chil"><br> 
+Adultos <input type="number" size="2" min="1" max="4" id="npessoas"> Crianças <input type="number" size="2" min="0" max="4" id="chil" name="chil"><br> 
 <br>
 <input type="button" value="Calcular" onclick="calcular()"  id="botão"><br>
 
@@ -24,48 +24,49 @@ Ad <input type="number" size="2" min="1" max="4" id="npessoas"> Ch <input type="
 
 <div id="mydiv2">
 
-<img src="cm.png" alt="Imagem" onclick="alternarDivs()"><br>
+<img src="cm.png" alt="Imagem" onclick="alternarDivs()">
 
 <a id="link_pacotes" href="pacotes.html">Ir para Pacotes</a>
 
 <button id="botao_voucher">Voucher</button>
 </div>
 
-<div id="mydiv3">
+<div id="periodo_pessoas">
+<p>*<span id="pacote"></span>*</p>
+<p>*Período: <span id="periodo"></span>*</p>
 
-<h3>*<span id="pacote"></span>*</h3><br>
-<h3>*Período: <span id="periodo"></span>*</h3><br>
 <div id="mydiv_mp" class="apartamentos">
+
 <h3>*Apto Standard:*</h3>
     <p>
-        Valor Total: <span id="valorStandard"></span><br>
+        Valor Total: *<span id="valorStandard"></span>*<br>
         Desconto no PIX: *<span id="descontoStandard"></span>*<br>
         Diária Normal: <span id="diariaNormalStandard"></span><br>
-        Diária com Desconto: *<span id="diariaDescontoStandard"></span>*
+        Diária com Desconto: <span id="diariaDescontoStandard"></span>
     </p>
 
 <h3>*Apto Top Class:*</h3>
     <p>
-        Valor Total: <span id="valorTopClass"></span><br>
+        Valor Total: *<span id="valorTopClass"></span>*<br>
         Desconto no PIX: *<span id="descontoTopClass"></span>*<br>     
         Diária Normal: <span id="diariaNormalTopClass"></span><br>
-        Diária com Desconto: *<span id="diariaDescontoTopClass"></span>*
+        Diária com Desconto: <span id="diariaDescontoTopClass"></span>
     </p>
 
 <h3>*Apto Suite Junior:*</h3>
     <p>
-        Valor Total: <span id="valorSuiteJunior"></span><br>
+        Valor Total: *<span id="valorSuiteJunior"></span>*<br>
         Desconto no PIX: *<span id="descontoSuiteJunior"></span>*<br>
         Diária Normal: <span id="diariaNormalSuiteJunior"></span><br>
-        Diária com Desconto: *<span id="diariaDescontoSuiteJunior"></span>*
+        Diária com Desconto: <span id="diariaDescontoSuiteJunior"></span>
     </p>
 
 <h3>*Apto Suite Master:*</h3>
     <p>
-        Valor Total: <span id="valorSuiteMaster"></span><br>
+        Valor Total: *<span id="valorSuiteMaster"></span>*<br>
         Desconto no PIX: *<span id="descontoSuiteMaster"></span>*<br>  
         Diária Normal: <span id="diariaNormalSuiteMaster"></span><br>
-        Diária com Desconto: *<span id="diariaDescontoSuiteMaster"></span>*
+        Diária com Desconto: <span id="diariaDescontoSuiteMaster"></span>
 		
 		
 	</p>
@@ -77,26 +78,26 @@ Ad <input type="number" size="2" min="1" max="4" id="npessoas"> Ch <input type="
 	
 	<h3>*Apto Standard:*</h3>
     <p>
-        Valor Total: <span id="valorStandard_cm"></span><br>
+        Valor Total: *<span id="valorStandard_cm"></span>*<br>
         Desconto no PIX: *<span id="descontoStandard_cm"></span>*<br> 
         Diária Normal: <span id="diariaNormalStandard_cm"></span><br>
-        Diária com Desconto: *<span id="diariaDescontoStandard_cm"></span>*
+        Diária com Desconto: <span id="diariaDescontoStandard_cm"></span>
     </p>
 
 <h3>*Apto Top Class:*</h3>
     <p>
-        Valor Total: <span id="valorTopClass_cm"></span><br>
+        Valor Total: *<span id="valorTopClass_cm"></span>*<br>
         Desconto no PIX: *<span id="descontoTopClass_cm"></span>*<br>  
         Diária Normal: <span id="diariaNormalTopClass_cm"></span><br>
-        Diária com Desconto: *<span id="diariaDescontoTopClass_cm"></span>*
+        Diária com Desconto: <span id="diariaDescontoTopClass_cm"></span>
     </p>
 
 <h3>*Apto Suite Master:*</h3>
     <p>
-        Valor Total: <span id="valorSuiteMaster_cm"></span><br>
+        Valor Total: *<span id="valorSuiteMaster_cm"></span>*<br>
         Desconto no PIX: *<span id="descontoSuiteMaster_cm"></span>*<br>     
         Diária Normal: <span id="diariaNormalSuiteMaster_cm"></span><br>
-        Diária com Desconto: *<span id="diariaDescontoSuiteMaster_cm"></span>*
+        Diária com Desconto: <span id="diariaDescontoSuiteMaster_cm"></span>
 		
 	</p>
 	
