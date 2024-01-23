@@ -72,15 +72,15 @@
 	  
 	} else if (valorSelecionado == "CORPUS") {
       
-	alert("FAZER DIÁRIA NORMAL CHEIA SEM DESCONTO")	
-	/*valor = CORPUS
+	
+	*valor = CORPUS
 	  ndias = ["3", "4", "5"]
 	  nomepacote = "CORPUS CHRISTI"
 	  paragrafo4d.style.display = "block"
 	  paragrafo5d.style.display = "none"
 	  ceia_natal.style.display = "none"
 	  ceia_revei.style.display = "none"	  
-	  cafe_e_jantar.style.display = "block"*/	  	  
+	  cafe_e_jantar.style.display = "block"*	  	  
 	       
 	} else if (valorSelecionado == "DIADOSPAIS") {
       valor = DIADOSPAIS
