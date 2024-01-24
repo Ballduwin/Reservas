@@ -73,7 +73,7 @@
 	} else if (valorSelecionado == "CORPUS") {
       
       valor = CORPUS
-	  ndias = ["3", "4", "5"]
+	  ndias = ["2", "3", "4"]
 	  nomepacote = "CORPUS 24"
 	  paragrafo4d.style.display = "block"
 	  paragrafo5d.style.display = "none"	  
