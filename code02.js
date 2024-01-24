@@ -72,16 +72,14 @@
 	  
 	} else if (valorSelecionado == "CORPUS") {
       
-	
-	*valor = CORPUS
+      valor = CORPUS
 	  ndias = ["3", "4", "5"]
-	  nomepacote = "CORPUS CHRISTI"
+	  nomepacote = "CORPUS 24"
 	  paragrafo4d.style.display = "block"
-	  paragrafo5d.style.display = "none"
-	  ceia_natal.style.display = "none"
-	  ceia_revei.style.display = "none"	  
-	  cafe_e_jantar.style.display = "block"*	  	  
-	       
+	  paragrafo5d.style.display = "none"	  
+	  cafe_e_jantar.style.display = "block"	  
+	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes esta incluso café da manhã e jantar*`
+			    	  
 	} else if (valorSelecionado == "DIADOSPAIS") {
       valor = DIADOSPAIS
 	  ndias = ["2", "3"]
