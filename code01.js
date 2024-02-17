@@ -15,8 +15,8 @@ function calcular() {
 	var ago = [660, 725, 820, 590, 650]
 	var set = [710, 780, 860, 590, 650]
 	var out = [785, 865, 950, 630, 690]
-	var nov = [0, 0, 0, 0, 0]
-	var dez = [0, 0, 0, 0, 0]	
+	var nov = [865, 950, 1050, 735, 810]
+	var dez = [0, 0, 0, 0, 0]
 
 	var tarifa = [0, 0, 0, 0, 0]
 	var mes = ""
