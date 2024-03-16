@@ -89,7 +89,16 @@
 	  paragrafo4d.style.display = "none"
 	  paragrafo5d.style.display = "none"	  
 	  document.getElementById("cafe_e_jantar").innerHTML = `Em nossos pacotes está incluso café da manhã e jantar, e no domingo dia 13/08, um almoço para *duas pessoas* (uma criança de até 5 anos é cortesia)`
-	  
+		    	  
+	} else if (valorSelecionado == "DIADASMAES") {
+      valor = DIADASMAES
+	  ndias = ["2", "3"]
+	  nomepacote = "DIA DAS MÃES"
+	  paragrafo3d.style.display = "block"
+	  paragrafo4d.style.display = "none"
+	  paragrafo5d.style.display = "none"	  
+	  document.getElementById("cafe_e_jantar").innerHTML = `Em nossos pacotes está incluso café da manhã e jantar, e no domingo dia 13/08, um almoço para *duas pessoas* (uma criança de até 5 anos é cortesia)`
+	  		
 	} else if (valorSelecionado == "INDEPENDENCIA") {
       valor = INDEPENDENCIA
 	  ndias = ["2", "3", "4"]
