@@ -10,7 +10,7 @@
 	var CORPUS = 	 	[1650, 1810, 0, 2240, 2465, 2700, 2820, 3100, 3415]
 	var DIADOSPAIS = 	[990, 1090, 1200, 1650, 1815, 1950, 0, 0, 0]
 	var DIADASMAES = 	[990, 1088, 1230, 1650, 1813, 2050, 0, 0, 0]
-	var INDEPENDENCIA =	[2200, 2420, 2660, 2985, 3280, 3610, 0, 0, 0]
+	var PROCLAMACAO =	[2200, 2420, 2660, 2985, 3280, 3610, 0, 0, 0]
 	var OUTUBRO_12 = 	[2100, 2300, 0, 2740, 3015, 3320, 3300, 3600, 3975]
 	var FINADOS = 		[2245, 2470, 2720, 3065, 3370, 3710, 3630, 3990, 4400]
 	var NATAL = 		[4760, 5230, 0, 6100, 6710, 7380, 7120, 7830, 8620]
@@ -99,10 +99,10 @@
 	  paragrafo5d.style.display = "none"	  
 	  document.getElementById("cafe_e_jantar").innerHTML = `Em nossos pacotes está incluso café da manhã e jantar, e no domingo um almoço para *duas pessoas* (uma criança de até 5 anos é cortesia)`
 	  		
-	} else if (valorSelecionado == "INDEPENDENCIA") {
-      valor = INDEPENDENCIA
+	} else if (valorSelecionado == "PROCLAMACAO") {
+      valor = PROCLAMACAO
 	  ndias = ["2", "3", "4"]
-	  nomepacote = "INDEPENDÊNCIA"
+	  nomepacote = "PROCLAMAÇÃO DA REPÚBLICA"
 	  paragrafo4d.style.display = "block"
 	  paragrafo3d.style.display = "block"
 	  paragrafo5d.style.display = "none"	  
