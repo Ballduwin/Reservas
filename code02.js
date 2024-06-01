@@ -103,9 +103,9 @@
       valor = PROCLAMACAO
 	  ndias = ["2", "3"]
 	  nomepacote = "PROCLAMAÇÃO DA REPÚBLICA"
+	  paragrafo3d.style.display = "block"
 	  paragrafo4d.style.display = "none"
 	  paragrafo5d.style.display = "none"	  
-	  cafe_e_jantar.style.display = "block"
 	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes esta incluso café da manhã e jantar*`
 	  
 	} else if (valorSelecionado == "OUTUBRO_12") {
