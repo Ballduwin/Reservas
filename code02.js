@@ -101,7 +101,7 @@
 	  		
 	} else if (valorSelecionado == "PROCLAMACAO") {
       valor = PROCLAMACAO
-	  ndias = ["2", "3", "4"]
+	  ndias = ["2", "3"]
 	  nomepacote = "PROCLAMAÇÃO DA REPÚBLICA"
 	  paragrafo4d.style.display = "block"
 	  paragrafo3d.style.display = "block"
