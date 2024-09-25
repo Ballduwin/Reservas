@@ -3,7 +3,7 @@
   
 						//Stan MP / Top MP / Suite J MP
 	
-	var CARNAVAL = 		[3150, 3500, 0, 4100, 4600, 4900, 5000, 5400, 6150]
+	var CARNAVAL = 		[3550, 3900, 0, 4720, 5200, 5710, 5390, 5930, 6520]
 	var PASCOA =  		[1980, 2178, 2394, 2610, 2880, 3150]
 	var TIRADENTES = 	[1530, 1680, 0, 2260, 2480, 2730]
 	var MAIO_1 = 	 	[1530, 1680, 0, 2260, 2480, 2730]
@@ -147,7 +147,7 @@
 	} else if (valorSelecionado == "CARNAVAL") {
       valor = CARNAVAL
 	  ndias = ["3", "4", "5"]
-	  nomepacote = "CARNAVAL 24"
+	  nomepacote = "CARNAVAL"
 	  paragrafo4d.style.display = "block"
 	  paragrafo5d.style.display = "none"	  
 	  cafe_e_jantar.style.display = "block"	  
