@@ -139,7 +139,7 @@
 	} else if (valorSelecionado == "REVEILLON") {
       valor = REVEILLON
 	  ndias = ["3", "4", "5", "7"]
-	  nomepacote = "REVEILLON 23/24"
+	  nomepacote = "REVEILLON"
 	  paragrafo4d.style.display = "block"
 	  paragrafo5d.style.display = "block"	 	  
 	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes esta incluso café da manhã e jantar, a Ceia de Réveillon com coquetel de entrada e banda ao vivo, @bandabala, além de recreação infantil todos os dias*` 
