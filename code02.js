@@ -53,7 +53,7 @@
 	  nomepacote = "PÁSCOA"
 	  paragrafo4d.style.display = "none"
 	  paragrafo5d.style.display = "none"	  
-	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes esta incluso café da manhã e jantar*`	  
+	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes está incluso café da manhã e jantar*`	  
 	  
     } else if (valorSelecionado == "TIRADENTES") {
       valor = TIRADENTES
@@ -61,7 +61,7 @@
 	  nomepacote = "TIRADENTES"
 	  paragrafo4d.style.display = "none"
 	  paragrafo5d.style.display = "none"	  
-	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes esta incluso café da manhã e jantar*`  
+	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes está incluso café da manhã e jantar*`  
 	  
     } else if (valorSelecionado == "MAIO_1") {
       valor = MAIO_1
@@ -69,7 +69,7 @@
 	  nomepacote = "1° DE MAIO"
 	  paragrafo4d.style.display = "none"
 	  paragrafo5d.style.display = "none"	  
-	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes esta incluso café da manhã e jantar*`
+	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes está incluso café da manhã e jantar*`
 	  
 	} else if (valorSelecionado == "CORPUS") {
       
@@ -79,7 +79,7 @@
 	  paragrafo4d.style.display = "block"
 	  paragrafo5d.style.display = "none"	  
 	  cafe_e_jantar.style.display = "block"	  
-	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes esta incluso café da manhã e jantar*`
+	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes está incluso café da manhã e jantar*`
 			    	  
 	} else if (valorSelecionado == "DIADOSPAIS") {
       valor = DIADOSPAIS
@@ -106,7 +106,7 @@
 	  paragrafo3d.style.display = "block"
 	  paragrafo4d.style.display = "none"
 	  paragrafo5d.style.display = "none"	  
-	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes esta incluso café da manhã e jantar*`
+	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes está incluso café da manhã e jantar*`
 	  
 	} else if (valorSelecionado == "OUTUBRO_12") {
       valor = OUTUBRO_12
@@ -115,7 +115,7 @@
 	  paragrafo4d.style.display = "block"
 	  paragrafo5d.style.display = "none"	  
 	  cafe_e_jantar.style.display = "block"	  
-	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes esta incluso café da manhã e jantar*`
+	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes está incluso café da manhã e jantar*`
 	  
 	} else if (valorSelecionado == "FINADOS") {
 	alert("FAZER DIÁRIA NORMAL CHEIA SEM DESCONTO")	      
@@ -142,7 +142,7 @@
 	  nomepacote = "REVEILLON"
 	  paragrafo4d.style.display = "block"
 	  paragrafo5d.style.display = "block"	 	  
-	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes esta incluso café da manhã e jantar, a Ceia de Réveillon com coquetel de entrada e banda ao vivo, @bandabala, além de recreação infantil todos os dias*` 
+	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes está incluso café da manhã e jantar, a Ceia de Réveillon com coquetel de entrada e banda ao vivo, @bandabala, além de recreação infantil todos os dias*` 
 	  	  		  
 	} else if (valorSelecionado == "CARNAVAL") {
       valor = CARNAVAL
@@ -151,7 +151,7 @@
 	  paragrafo4d.style.display = "block"
 	  paragrafo5d.style.display = "none"	  
 	  cafe_e_jantar.style.display = "block"	  
-	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes esta incluso café da manhã e jantar*`
+	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes está incluso café da manhã e jantar*`
 			  
     } else {
   
