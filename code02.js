@@ -68,7 +68,7 @@
 	  ndias = ["2", "3", "4"]
 	  nomepacote = "1° DE MAIO"
 	  paragrafo4d.style.display = "block"
-	  paragrafo5d.style.display = "block"	  
+	  paragrafo5d.style.display = "none"	  
 	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes está incluso café da manhã e jantar*`
 	  
 	} else if (valorSelecionado == "CORPUS") {
@@ -77,7 +77,7 @@
 	  ndias = ["2", "3", "4"]
 	  nomepacote = "CORPUS CHRISTI"
 	  paragrafo4d.style.display = "block"
-	  paragrafo5d.style.display = "block"
+	  paragrafo5d.style.display = "none"
 	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes está incluso café da manhã e jantar*`
 			    	  
 	} else if (valorSelecionado == "DIADOSPAIS") {
@@ -147,7 +147,7 @@
 	  ndias = ["3", "4", "5"]
 	  nomepacote = "CARNAVAL"
 	  paragrafo4d.style.display = "block"
-	  paragrafo5d.style.display = "block"  
+	  paragrafo5d.style.display = "none"  
 	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes está incluso café da manhã e jantar*`
 			  
     } else {
