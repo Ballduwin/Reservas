@@ -78,7 +78,6 @@
 	  nomepacote = "CORPUS CHRISTI"
 	  paragrafo4d.style.display = "block"
 	  paragrafo5d.style.display = "block"
-	  cafe_e_jantar.style.display = "block"
 	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes está incluso café da manhã e jantar*`
 			    	  
 	} else if (valorSelecionado == "DIADOSPAIS") {
@@ -114,7 +113,6 @@
 	  nomepacote = "12 DE OUTUBRO"
 	  paragrafo4d.style.display = "block"
 	  paragrafo5d.style.display = "none"	  
-	  cafe_e_jantar.style.display = "block"	  
 	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes está incluso café da manhã e jantar*`
 	  
 	} else if (valorSelecionado == "FINADOS") {
@@ -149,8 +147,7 @@
 	  ndias = ["3", "4", "5"]
 	  nomepacote = "CARNAVAL"
 	  paragrafo4d.style.display = "block"
-	  paragrafo5d.style.display = "none"	  
-	  cafe_e_jantar.style.display = "block"	  
+	  paragrafo5d.style.display = "block"  
 	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes está incluso café da manhã e jantar*`
 			  
     } else {
