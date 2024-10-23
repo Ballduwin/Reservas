@@ -67,18 +67,18 @@
       valor = MAIO_1
 	  ndias = ["2", "3", "4"]
 	  nomepacote = "1° DE MAIO"
-	  paragrafo4d.style.display = "none"
-	  paragrafo5d.style.display = "none"	  
+	  paragrafo4d.style.display = "block"
+	  paragrafo5d.style.display = "block"	  
 	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes está incluso café da manhã e jantar*`
 	  
 	} else if (valorSelecionado == "CORPUS") {
       
       valor = CORPUS
 	  ndias = ["2", "3", "4"]
-	  nomepacote = "CORPUS 24"
+	  nomepacote = "CORPUS CHRISTI"
 	  paragrafo4d.style.display = "block"
-	  paragrafo5d.style.display = "none"	  
-	  cafe_e_jantar.style.display = "block"	  
+	  paragrafo5d.style.display = "block"
+	  cafe_e_jantar.style.display = "block"
 	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes está incluso café da manhã e jantar*`
 			    	  
 	} else if (valorSelecionado == "DIADOSPAIS") {
