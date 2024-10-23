@@ -5,7 +5,7 @@
 	
 	var CARNAVAL = 		[3550, 3900, 0, 4720, 5200, 5710, 5390, 5930, 6520]
 	var PASCOA =  		[2900, 3200, 2660, 3600, 3960, 4360]
-	var TIRADENTES = 	[1530, 1680, 0, 2260, 2480, 2730]
+	var TIRADENTES = 	[2900, 3200, 2660, 3600, 3960, 4360]
 	var MAIO_1 = 	 	[1630, 1780, 2200, 2420, 2670, 2940, 3060, 3370, 3700]
 	var CORPUS = 	 	[1650, 1810, 0, 2240, 2465, 2700, 2820, 3100, 3415]
 	var DIADOSPAIS = 	[990, 1090, 1200, 1650, 1815, 1950, 0, 0, 0]
@@ -49,7 +49,7 @@
   
 	if (valorSelecionado == "PASCOA") {
       valor = PASCOA
-	  ndias = ["2", "3"]
+	  ndias = ["3", "4"]
 	  nomepacote = "PÁSCOA"
 	  paragrafo4d.style.display = "none"
 	  paragrafo5d.style.display = "none"	  
@@ -57,15 +57,15 @@
 	  
     } else if (valorSelecionado == "TIRADENTES") {
       valor = TIRADENTES
-	  ndias = ["2", "3"]
+	  ndias = ["3", "4"]
 	  nomepacote = "TIRADENTES"
 	  paragrafo4d.style.display = "none"
-	  paragrafo5d.style.display = "none"	  
+	  paragrafo5d.style.display = "none"
 	  document.getElementById("cafe_e_jantar").innerHTML = `*Em nossos pacotes está incluso café da manhã e jantar*`  
 	  
     } else if (valorSelecionado == "MAIO_1") {
       valor = MAIO_1
-	  ndias = ["2", "3"]
+	  ndias = ["2", "3", "4"]
 	  nomepacote = "1° DE MAIO"
 	  paragrafo4d.style.display = "none"
 	  paragrafo5d.style.display = "none"	  
