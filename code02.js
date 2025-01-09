@@ -13,8 +13,8 @@
 	var PROCLAMACAO =	[1980, 2100, 2200, 2700, 2970, 3270, 0, 0, 0]
 	var OUTUBRO_12 = 	[2100, 2300, 0, 2740, 3015, 3320, 3300, 3600, 3975]
 	var FINADOS = 		[2245, 2470, 2720, 3065, 3370, 3710, 3630, 3990, 4400]
-	var NATAL = 		[4520, 4750, 4990, 5800, 6100, 6400, 6800, 7150, 7510]
-	var REVEILLON = 	[6400, 6750, 7100, 7700, 8100, 8500, 9300, 9770, 10300, 11000, 11550, 12150]
+	var NATAL = 		[4760, 5230, 0, 6100, 6710, 7380, 7120, 7830, 8620]
+	var REVEILLON = 	[6700, 7370, 8100, 8100, 8910, 9800, 9750, 10725, 11800, 11550, 12700, 13980]
 	
     var npessoas = Number(document.getElementById("npessoas").value)
 	var criancas = Number(document.getElementById("chil").value)
