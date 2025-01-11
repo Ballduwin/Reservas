@@ -125,7 +125,7 @@ Prazo para Pagamento:<br>
 <br>
 Prazo para Cancelamento:<br>
 <br>
-*Cancelamento até 5 dias antes do Check-in. Respeitando o prazo, o valor integral já pago poderá ser devolvido, ou caso tenha preferência, deixado como crédito para utilização em qualquer outra data.<br>
+*Cancelamento até 7 dias antes do Check-in. Respeitando o prazo, o valor integral já pago poderá ser devolvido, ou caso tenha preferência, deixado como crédito para utilização em qualquer outra data.<br>
 <br>
 *Reservas canceladas após o prazo, estão sujeitas à cobrança do valor total já pago.<br>
 <br>
