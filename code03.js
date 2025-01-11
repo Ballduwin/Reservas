@@ -3,6 +3,18 @@ document.getElementById("botao_voucher").addEventListener("click", function() {
     document.getElementById("dialog").style.display = "block";
 });
 
+// Obtém a data atual
+const dataAtual = new Date();
+
+// Adiciona 2 dias à data atual
+const prazoPagamento = new Date();
+prazoPagamento.setDate(dataAtual.getDate() + 2);
+
+// Extrai o dia, mês e ano do prazo de pagamento
+const prazoDay = prazoPagamento.getUTCDate();
+const prazoMonth = prazoPagamento.getUTCMonth() + 1; // Janeiro é 0
+const prazoYear = prazoPagamento.getUTCFullYear();
+
 document.getElementById("confirmOption").addEventListener("click", function() {
     // Obtém o valor selecionado na caixa de seleção
 	
@@ -107,7 +119,7 @@ Valor do Pacote: *${valor_voucher}* *(No Pix ${desc_pix})*<br>
 <br>
 Prazo para Pagamento:<br>
 <br>
-*Prazo para o pagamento até o dia ${day1+2}/${month1}/${year1}, após essa data a reserva será cancelada.<br>
+*Prazo para o pagamento até o dia ${prazoDay}/${prazoMonth}/${prazoYear}, após essa data a reserva será cancelada.<br>
 <br>
 *Por favor, nos enviar o comprovante de depósito, sujeito a confirmação somente após a validação do financeiro.<br>
 <br>
